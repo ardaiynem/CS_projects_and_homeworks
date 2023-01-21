@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/innsolit/mips_hopeless/mips_hopeless.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/innsolit/mips_hopeless/mips_hopeless.srcs/sim_1/new/mips_tb.sv,1668578313,systemVerilog,,,,mips_tb,,uvm,,,,,,
+C:/Users/innsolit/mips_hopeless/mips_hopeless.srcs/sources_1/new/mips_complete.sv,1668543217,systemVerilog,,C:/Users/innsolit/mips_hopeless/mips_hopeless.srcs/sim_1/new/mips_tb.sv,,adder;alu;aludec;controller;datapath;dmem;flopr;imem;maindec;mips;mux2;regfile;signext;sl2;top,,uvm,,,,,,

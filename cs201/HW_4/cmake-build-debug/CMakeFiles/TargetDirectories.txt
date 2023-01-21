@@ -1,0 +1,3 @@
+C:/Users/innsolit/CLionProjects/HW_4/cmake-build-debug/CMakeFiles/HW_4.dir
+C:/Users/innsolit/CLionProjects/HW_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/innsolit/CLionProjects/HW_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

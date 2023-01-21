@@ -1,0 +1,633 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed May 11 22:20:55 2022
+# Process ID: 16976
+# Current directory: C:/Users/innsolit/demo_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2296 C:\Users\innsolit\demo_project\demo_project.xpr
+# Log file: C:/Users/innsolit/demo_project/vivado.log
+# Journal file: C:/Users/innsolit/demo_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/innsolit/demo_project/demo_project.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+disconnect_hw_server localhost:3121
+close_hw
+launch_simulation
+source top_module.tcl
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+add_force {/top_module/btn_l} -radix hex {0 0ns}
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+add_force {/top_module/btn_d} -radix hex {0 0ns}
+add_force {/top_module/btn_m} -radix hex {0 0ns}
+add_force {/top_module/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 125 ms
+launch_simulation -mode post-implementation -type functional
+source top_module.tcl
+add_force {/top_module/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/top_module/btn_d} -radix hex {0 0ns}
+add_force {/top_module/btn_l} -radix hex {0 0ns}
+add_force {/top_module/btn_m} -radix hex {0 0ns}
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+close_sim
+launch_simulation -mode post-implementation -type timing
+source top_module.tcl
+close_sim
+close_sim
+launch_simulation
+source top_module.tcl
+add_force {/top_module/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+add_force {/top_module/btn_l} -radix hex {0 0ns}
+add_force {/top_module/btn_d} -radix hex {0 0ns}
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+add_force {/top_module/btn_m} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_u} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {0100001000000000 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+remove_forces { {/top_module/btn_u} }
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_u} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {0001010000000000 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {0000011011010001 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/sw} -radix bin {0000001000110010 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {0000000111110010 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/sw} -radix bin {0000000001100010 0ns}
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {0000101111011001 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+add_force {/top_module/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+add_force {/top_module/btn_l} -radix hex {0 0ns}
+add_force {/top_module/btn_u} -radix bin {1010110 0ns}
+add_force {/top_module/btn_u} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {1010110000000000 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/u/q1} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+remove_forces { {/top_module/u/q1} }
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/sw} -radix bin {0000001001100010 0ns}
+add_force {/top_module/btn_l} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/prc/controller/fsm/btn_r} -radix hex {1 0ns}
+add_force {/top_module/prc/controller/fsm/btn_l} -radix hex {0 0ns}
+add_force {/top_module/r/q1} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+add_force {/top_module/btn_l} -radix hex {0 0ns}
+remove_forces { {/top_module/r/q1} }
+add_force {/top_module/r/q1} -radix hex {1 0ns}
+run 10 ns
+remove_forces { {/top_module/r/q1} }
+add_force {/top_module/r/q1} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+remove_forces { {/top_module/r/q1} }
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/sw} -radix bin {0000000111110010 0ns}
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {0000000001100010 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+add_force {/top_module/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/top_module/prc/dp/data_mem/RAM[13]} -radix bin {1010 0ns}
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+add_force {/top_module/sw} -radix bin {0000000001011101 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/prc/controller/fsm/btn_r} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+remove_forces { {/top_module/prc/controller/btn_r} }
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+relaunch_sim
+close_sim
+close_design
+launch_simulation
+source top_module.tcl
+add_force {/top_module/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+add_force {/top_module/btn_l} -radix hex {0 0ns}
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+add_force {/top_module/btn_d} -radix hex {0 0ns}
+add_force {/top_module/btn_m} -radix hex {0 0ns}
+add_force {/top_module/prc/dp/data_mem/RAM[13]} -radix bin {1010 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_u} -radix hex {1 0ns}
+add_force {/top_module/sw} -radix bin {0101100 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+remove_forces { {/top_module/clk} {/top_module/btn_r} {/top_module/btn_l} {/top_module/btn_u} {/top_module/btn_d} {/top_module/btn_m} {/top_module/sw} {/top_module/a} {/top_module/b} {/top_module/result} {/top_module/remainder} {/top_module/dp} {/top_module/seg} {/top_module/an} {/top_module/activeState} {/top_module/count} {/top_module/clkOut} {/top_module/button_r} {/top_module/button_l} {/top_module/button_u} {/top_module/button_d} {/top_module/button_m} }
+add_force {/top_module/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/top_module/btn_d} -radix hex {0 0ns}
+add_force {/top_module/btn_m} -radix hex {0 0ns}
+add_force {/top_module/btn_u} -radix hex {0 0ns}
+add_force {/top_module/btn_l} -radix hex {0 0ns}
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/sw} -radix bin {0000000000101101 0ns}
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/btn_r} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/prc/dp/rf/RAM[1]} -radix bin {1101 0ns}
+add_force {/top_module/sw} -radix bin {0000001000011000 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/top_module/r/q1} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+remove_forces { {/top_module/r/q1} }
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+close_sim
+launch_simulation
+launch_simulation
+source top_module.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+disconnect_hw_server localhost:3121
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B03874A}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+disconnect_hw_server localhost:3121
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+disconnect_hw_server localhost:3121
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+disconnect_hw_server localhost:3121
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B03874A}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B03874A}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B03874A}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/demo_project/demo_project.runs/impl_1/top_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B03874A}
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B03874A}
+close_hw
+close_sim

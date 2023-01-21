@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Apr 14 16:26:02 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="519698b90b58492788077db25984973e" type="ProjectID"/>
+<property name="ProjectIteration" value="5" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="7" type="JavaHandler"/>
+<property name="CloseDesign" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="4" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+<property name="SimulationClose" value="4" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="14" type="JavaHandler"/>
+<property name="SimulationRestart" value="2" type="JavaHandler"/>
+<property name="SimulationRun" value="7" type="JavaHandler"/>
+<property name="SimulationRunAll" value="1" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="51" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="2" type="JavaHandler"/>
+<property name="ViewTaskSimulation" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceAtoD.CmdMsgDialog_MESSAGES, [Labtools 27-1832] create_wave_config not a supported tcl command in labtools hardware mode. Default wave configurations are automatically created when triggering an ILA core., 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, Open Messages View" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_CLOSE_HARDWARE_DESIGN, Close" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_BREAK, simulation_live_break" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, simulation_relaunch" value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, slowed (slowed.sv" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, tb (tb.sv" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Open Target], 27, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager], 26, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_A} -radix hex {01001010 0ns}. , [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '01001010': Object size 8 does not match size of given value 01001010.. ], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_A} -radix hex {01001010 0ns}. ], 3, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_A} -radix hex {01001010 0ns}. ], 3, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_A} -radix hex {11111111 0ns}. , [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '11111111': Object size 8 does not match size of given value 11111111.. ], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_A} -radix hex {11111111 0ns}. , [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '11111111': Object size 8 does not match size of given value 11111111.. ], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_A} -radix hex {11111111 0ns}. ], 1, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_A} -radix hex {11111111 0ns}. ], 1, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_B} -radix hex {00110011 0ns}. ], 5, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, add_force {/sa/inArr_B} -radix hex {00110011 0ns}. ], 5, true, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, relaunch_sim. , [Labtools 27-1832] create_wave_config not a supported tcl command in labtools hardware mode. Default wave configurations are automatically created when triggering an ILA core.. ], 5, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 190, -51" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 226, -107" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 266, 403" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 273, 386" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 345, -48" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 4, -24" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 483, -107" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 529, -101" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 6, -97" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 7, -42" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 81, -58" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 4*" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformView_GOTO_TIME_0, Waveform Viewer_waveformGotoTime0" value="2" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_FILE, (String" value="7" type="GuiResourceData"/>
+<property name="cons.xdc, 313, 176, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="cons.xdc, 378, 322" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 117, 209" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 122, 305" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 123, 74" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 144, 335" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 153, 151" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 163, 194" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 163, 194, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 182, 154" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 19, 114" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 233, 251" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 25, 303" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 257, 322" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 263, 262" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 282, 228" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 30, 218" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 301, 210" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 332, 226" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 337, 228" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 337, 228, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 381, 167" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 421, 186" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 50, 99" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 71, 128" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 95, 247" value="1" type="GuiResourceData"/>
+<property name="sa.sv, 96, 341" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 102, 528" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 105, 521" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 132, 104" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 146, 516" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 173, 553" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 200, 522" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 246, 433" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 275, 289" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 319, 246" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 363, 563" value="1" type="GuiResourceData"/>
+<property name="sr.sv, 514, 505" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 0, 62" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 101, 142" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 102, 143" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 130, 229" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 132, 249" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 134, 20" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 153, 313" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 154, 127" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 159, 183" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 161, 313" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 217, 127" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 221, 163" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 3, 20" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 3, 20, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 30, 312" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 30, 312, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 34, 35" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 35, 303" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 35, 303, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 35, 317" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 35, 317, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 351, 149" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 38, 316" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 38, 316, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 40, 300" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 40, 300, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 41, 302" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 77, 135" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 78, 143" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 78, 143, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 78, 177" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 78, 177, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 80, 90" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 80, 90, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 81, 84" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 81, 84, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 84, 310" value="1" type="GuiResourceData"/>
+<property name="tb.sv, 93, 119" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="34" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="32" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

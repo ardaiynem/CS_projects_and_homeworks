@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../CS224_ Singlecycle_MIPS_Lite.srcs/sources_1/new/denemeShift.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,109 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Thu May 12 16:55:03 2022
+| Host         : DESKTOP-K1EJB1R running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_module_control_sets_placed.rpt
+| Design       : top_module
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    56 |
+| Unused register locations in slices containing registers |   226 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             115 |           48 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              47 |           14 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             204 |           58 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------+-------------------------------------------+-----------------------------+------------------+----------------+
+|                   Clock Signal                  |               Enable Signal               |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-------------------------------------------------+-------------------------------------------+-----------------------------+------------------+----------------+
+|  prc/controller/fsm/reset_reg_i_2_n_0           |                                           |                             |                1 |              1 |
+|  prc/controller/fsm/isexternal_reg_i_2_n_0      |                                           |                             |                1 |              1 |
+|  prc/controller/fsm/mem_we_reg_i_2_n_0          |                                           |                             |                1 |              2 |
+|  prc/controller/fsm/load_reg__0_i_2_n_0         |                                           |                             |                1 |              2 |
+|  prc/controller/fsm/dp_mem_we_reg_i_2_n_0       |                                           |                             |                1 |              2 |
+|  prc/controller/fsm/dp_reg_ra1_reg[2]_i_2_n_0   |                                           |                             |                1 |              3 |
+|  prc/controller/fsm/dp_reg_ra2_reg[2]_i_2_n_0   |                                           |                             |                1 |              3 |
+|  prc/controller/fsm/dp_reg_wa2_reg[2]_i_2_n_0   |                                           |                             |                1 |              3 |
+|  prc/controller/fsm/mem_add_reg[2]_i_1_n_0      |                                           |                             |                1 |              3 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[5][0]_0[0]     | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  prc/controller/fsm/dp_mem_add_reg[3]_i_2_n_0   |                                           |                             |                1 |              4 |
+|  prc/controller/fsm/dp_mem_wd_reg[3]_i_2_n_0    |                                           |                             |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[6][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  prc/controller/fsm/dp_reg_wd2_reg[3]_i_2_n_0   |                                           |                             |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[6][0]_0[0]     | prc/controller/fsm/q_reg[0] |                3 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[7][0][0]       | prc/controller/fsm/q_reg[0] |                2 |              4 |
+|  prc/controller/fsm/nextstate_reg[3]_i_2_n_0    |                                           |                             |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[7][0]_0[0]     | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[8][0]_0[0]     | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[9][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[0][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[0][0]_0[0]     | prc/controller/fsm/q_reg[0] |                2 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[10][0][0]      | prc/controller/fsm/q_reg[0] |                2 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[11][0][0]      | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[12][0][0]      | prc/controller/fsm/q_reg[0] |                2 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[13][0][0]      | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[14][0][0]      | prc/controller/fsm/q_reg[0] |                2 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[15][0][0]      | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[1][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[1][0]_0[0]     | prc/controller/fsm/q_reg[0] |                2 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[2][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[2][0]_0[0]     | prc/controller/fsm/q_reg[0] |                3 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[3][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[3][0]_0[0]     | prc/controller/fsm/q_reg[0] |                2 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[4][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[4][0]_0[0]     | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/RAM_reg[5][0][0]       | prc/controller/fsm/q_reg[0] |                1 |              4 |
+|  clk_IBUF_BUFG                                  |                                           |                             |                3 |              5 |
+|  clkOut_reg_n_0_BUFG                            |                                           | prc/controller/fsm/q_reg[0] |                3 |              6 |
+|  prc/controller/fsm/dp_reg_wd1_reg[3]_i_2_n_0   |                                           |                             |                2 |              7 |
+|  prc/controller/fsm/mem_wd_reg[11]_i_1_n_0      |                                           |                             |                3 |             12 |
+|  prc/controller/fsm/E[0]                        |                                           |                             |               12 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/fsm/q_reg[11]_0[0]         | prc/controller/fsm/q_reg[0] |                3 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[0][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                2 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[1][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                2 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[2][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                2 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[3][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                2 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[4][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                3 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[5][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                5 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[6][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                2 |             12 |
+|  clkOut_reg_n_0_BUFG                            | prc/controller/ins_mem/RAM[7][11]_i_1_n_0 | prc/controller/fsm/q_reg[0] |                2 |             12 |
+|  prc/controller/fsm/activeState_reg[12]_i_2_n_0 |                                           |                             |                5 |             13 |
+|  clkOut_reg_n_0_BUFG                            |                                           |                             |                5 |             14 |
+|  prc/controller/fsm/a_reg[3]_i_2_n_0            |                                           |                             |                5 |             16 |
+|  clk_IBUF_BUFG                                  |                                           | svn/count[16]_i_1_n_0       |                4 |             16 |
+|  clk_IBUF_BUFG                                  |                                           | clkOut                      |                7 |             25 |
++-------------------------------------------------+-------------------------------------------+-----------------------------+------------------+----------------+
+
+

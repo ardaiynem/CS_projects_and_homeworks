@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_module_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1475333333fs"></ZoomStartTime>
+      <ZoomEndTime time="1552933334fs"></ZoomEndTime>
+      <Cursor1Time time="1540000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/top_module/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/btn_r" type="logic">
+      <obj_property name="ElementShortName">btn_r</obj_property>
+      <obj_property name="ObjectShortName">btn_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/btn_l" type="logic">
+      <obj_property name="ElementShortName">btn_l</obj_property>
+      <obj_property name="ObjectShortName">btn_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/btn_u" type="logic">
+      <obj_property name="ElementShortName">btn_u</obj_property>
+      <obj_property name="ObjectShortName">btn_u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/btn_d" type="logic">
+      <obj_property name="ElementShortName">btn_d</obj_property>
+      <obj_property name="ObjectShortName">btn_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/btn_m" type="logic">
+      <obj_property name="ElementShortName">btn_m</obj_property>
+      <obj_property name="ObjectShortName">btn_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/a" type="array">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/b" type="array">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/result" type="array">
+      <obj_property name="ElementShortName">result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">result[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/remainder" type="array">
+      <obj_property name="ElementShortName">remainder[3:0]</obj_property>
+      <obj_property name="ObjectShortName">remainder[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/dp" type="logic">
+      <obj_property name="ElementShortName">dp</obj_property>
+      <obj_property name="ObjectShortName">dp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/button_r" type="logic">
+      <obj_property name="ElementShortName">button_r</obj_property>
+      <obj_property name="ObjectShortName">button_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/button_l" type="logic">
+      <obj_property name="ElementShortName">button_l</obj_property>
+      <obj_property name="ObjectShortName">button_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/button_u" type="logic">
+      <obj_property name="ElementShortName">button_u</obj_property>
+      <obj_property name="ObjectShortName">button_u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/button_d" type="logic">
+      <obj_property name="ElementShortName">button_d</obj_property>
+      <obj_property name="ObjectShortName">button_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/button_m" type="logic">
+      <obj_property name="ElementShortName">button_m</obj_property>
+      <obj_property name="ObjectShortName">button_m</obj_property>
+   </wvobject>
+</wave_config>

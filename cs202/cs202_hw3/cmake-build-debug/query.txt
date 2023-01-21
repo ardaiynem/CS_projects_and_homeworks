@@ -1,0 +1,8 @@
+poetry
+refrigerator
+extent
+cookie
+food
+affair
+failure
+art

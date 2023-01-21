@@ -1,0 +1,423 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Mar 03 14:00:43 2022
+# Process ID: 5508
+# Current directory: C:/Users/innsolit/lab_fin
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12228 C:\Users\innsolit\lab_fin\lab_fin.xpr
+# Log file: C:/Users/innsolit/lab_fin/vivado.log
+# Journal file: C:/Users/innsolit/lab_fin\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/innsolit/lab_fin/lab_fin.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_project
+create_project lab_ex C:/Users/innsolit/lab_ex -part xc7a35tcpg236-1
+file mkdir C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/half_adder.sv w ]
+add_files C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/half_adder.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/half_subtractor.sv w ]
+add_files C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/half_subtractor.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/full_adder.sv w ]
+add_files C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/full_adder.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/two_bit_adder.sv w ]
+add_files C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/two_bit_adder.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/lab_calculator.sv w ]
+add_files C:/Users/innsolit/lab_ex/lab_ex.srcs/sources_1/new/lab_calculator.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_ha.sv w ]
+add_files -fileset sim_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_ha.sv
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_hs.sv w ]
+add_files -fileset sim_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_hs.sv
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_fa.sv w ]
+add_files -fileset sim_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_fa.sv
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_2ba.sv w ]
+add_files -fileset sim_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_2ba.sv
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_lc.sv w ]
+add_files -fileset sim_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/sim_1/new/tb_lc.sv
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab_calculator [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_half_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench_half_adder.tcl
+close_sim
+file mkdir C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1
+file mkdir C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/lab_const.xdc w ]
+add_files -fileset constrs_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/lab_const.xdc
+refresh_design
+refresh_design
+launch_simulation
+source testbench_half_adder.tcl
+close_sim
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/half_adder.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/half_adder.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+set_property target_constrs_file C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/lab_const.xdc [current_fileset -constrset]
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_fa.xdc w ]
+add_files -fileset constrs_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_fa.xdc
+close_design
+set_property target_constrs_file C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_fa.xdc [current_fileset -constrset]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top full_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_full_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/full_adder.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/full_adder.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_hs.xdc w ]
+add_files -fileset constrs_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_hs.xdc
+close_design
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_tba.xdc w ]
+add_files -fileset constrs_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_tba.xdc
+close [ open C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_lc.xdc w ]
+add_files -fileset constrs_1 C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_lc.xdc
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_lab_calculator [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab_calculator [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property target_constrs_file C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_lc.xdc [current_fileset -constrset]
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/lab_calculator.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/lab_calculator.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_two_bit_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top two_bit_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property target_constrs_file C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_tba.xdc [current_fileset -constrset]
+refresh_design
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/two_bit_adder.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/two_bit_adder.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+launch_simulation
+source testbench_two_bit_adder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_half_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench_half_adder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_subtractor [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_half_subtractor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench_half_subtractor.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top full_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_full_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench_full_adder.tcl
+close_sim
+current_sim simulation_5
+close_sim
+current_sim simulation_4
+close_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_lab_calculator [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab_calculator [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+launch_simulation
+source testbench_lab_calculator.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_half_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench_half_adder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_subtractor [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_half_subtractor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench_half_subtractor.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top full_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_full_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench_full_adder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top two_bit_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_two_bit_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+current_sim simulation_9
+close_sim
+current_sim simulation_8
+close_sim
+close_sim
+refresh_design
+launch_simulation
+source testbench_two_bit_adder.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/two_bit_adder.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/two_bit_adder.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab_calculator [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_lab_calculator [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+set_property target_constrs_file C:/Users/innsolit/lab_ex/lab_ex.srcs/constrs_1/new/const_lc.xdc [current_fileset -constrset]
+close_design
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/lab_calculator.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/innsolit/lab_ex/lab_ex.runs/impl_1/lab_calculator.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw

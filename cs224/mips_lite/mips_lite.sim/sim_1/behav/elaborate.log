@@ -1,0 +1,68 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 13b4ec3d5406429cae0d69210341a619 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mipsLiteSimulator_behav xil_defaultlib.mipsLiteSimulator xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 6. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 76. Module mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 93. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 113. Module maindec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 134. Module aludec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 152. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 248. Module flopr(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 229. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 235. Module sl2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 229. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 190. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 241. Module signext doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 210. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 43. Module imem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 22. Module dmem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 6. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 76. Module mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 93. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 113. Module maindec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 134. Module aludec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 152. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 248. Module flopr(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 229. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 235. Module sl2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 229. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 190. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 241. Module signext doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 260. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 210. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 43. Module imem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Downloads/top.sv" Line 22. Module dmem doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.mipsLiteSimulator
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mipsLiteSimulator_behav

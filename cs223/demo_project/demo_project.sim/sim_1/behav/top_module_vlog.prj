@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../demo_project.srcs/sources_1/new/datapath.sv"
+sv xil_defaultlib  "../../../demo_project.srcs/sources_1/new/control_unit.sv"
+sv xil_defaultlib  "../../../demo_project.srcs/sources_1/new/debouncer.sv"
+sv xil_defaultlib  "../../../demo_project.srcs/sources_1/new/seven_seg_disp.sv"
+sv xil_defaultlib  "../../../demo_project.srcs/sources_1/new/processor.sv"
+sv xil_defaultlib  "../../../demo_project.srcs/sources_1/new/top_module.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

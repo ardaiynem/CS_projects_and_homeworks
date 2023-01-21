@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/innsolit/demo_project/demo_project.sim/sim_1/impl/timing/top_module_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FlipFlop
+INFO: [VRFC 10-311] analyzing module FlipFlop_10
+INFO: [VRFC 10-311] analyzing module FlipFlop_11
+INFO: [VRFC 10-311] analyzing module FlipFlop_12
+INFO: [VRFC 10-311] analyzing module FlipFlop_4
+INFO: [VRFC 10-311] analyzing module FlipFlop_5
+INFO: [VRFC 10-311] analyzing module FlipFlop_6
+INFO: [VRFC 10-311] analyzing module FlipFlop_7
+INFO: [VRFC 10-311] analyzing module FlipFlop_8
+INFO: [VRFC 10-311] analyzing module FlipFlop_9
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-311] analyzing module controlfsm
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-311] analyzing module debouncer_0
+INFO: [VRFC 10-311] analyzing module debouncer_1
+INFO: [VRFC 10-311] analyzing module debouncer_2
+INFO: [VRFC 10-311] analyzing module debouncer_3
+INFO: [VRFC 10-311] analyzing module instruction_register
+INFO: [VRFC 10-311] analyzing module insturction_memory
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-311] analyzing module seven_seg_disp
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-311] analyzing module glbl

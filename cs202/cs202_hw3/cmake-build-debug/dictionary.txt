@@ -1,0 +1,8 @@
+poetry
+garbage
+extent
+cookie
+speech
+affair
+failure
+member

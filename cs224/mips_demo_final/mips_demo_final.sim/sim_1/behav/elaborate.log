@@ -1,0 +1,68 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 241f0fa2ef97438ead0370e974bc2fa7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mipsLiteSimulator_behav xil_defaultlib.mipsLiteSimulator xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/top.sv" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mips.sv" Line 2. Module mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/controller.sv" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/maindec.sv" Line 1. Module maindec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/aludec.sv" Line 1. Module aludec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/datapath.sv" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/flopr.sv" Line 3. Module flopr(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/adder.sv" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/sl2.sv" Line 1. Module sl2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/adder.sv" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/regFile.sv" Line 1. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/signext.sv" Line 2. Module signext doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/alu.sv" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/imem.sv" Line 1. Module imem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/dmem.sv" Line 1. Module dmem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/top.sv" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mips.sv" Line 2. Module mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/controller.sv" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/maindec.sv" Line 1. Module maindec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/aludec.sv" Line 1. Module aludec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/datapath.sv" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/flopr.sv" Line 3. Module flopr(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/adder.sv" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/sl2.sv" Line 1. Module sl2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/adder.sv" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/regFile.sv" Line 1. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/signext.sv" Line 2. Module signext doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/mux2.sv" Line 2. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/alu.sv" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/imem.sv" Line 1. Module imem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/innsolit/Desktop/custom_singlecycle_MIPSLite.srcs/sources_1/new/dmem.sv" Line 1. Module dmem doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.mipsLiteSimulator
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mipsLiteSimulator_behav
